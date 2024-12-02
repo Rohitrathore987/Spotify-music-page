@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 8, 8);
+}
+
+
+#top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap:wrap;
+    
+    
+}
+#main h1{
+    font-size: 6vh;
+    font-weight: 400;
+    padding: 25px 10px;
+}
+.notf{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    /* justify-content: space-evenly; */
+    
+}
+.not-p{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgdbDi9v_7tcoljbbtCxwwhTjuOXuJYQ7yOBeOUWpstb9IZrsyvD1or_4&s);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.not-p1{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvbZl_7Dk_IPLcNVV9jk7hQRqkWYO8F3fAGw&s);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.not-p2{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQCIw-kmv6pS3Z-HCeSYTnfArgN_VeeK6SA&s);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.not-p3{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLS4iF7SyKff7Azt29nh0FLyWKkkOMsjNrEg&s);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.not-p4{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSKDp06msDPmoXz7kbYi2uI_o4GqZ3JVhE0Q&s);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.not-p5{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsXuI6vahtftvhBR-0-Ez_6S0Y-yNp49fohQ&s);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+#bottom{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.card{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    /* border-radius: 2px red; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAkKm7CpId605lORl1AVoC3GIW7C8czaLBg&s);
+    /* background-repeat: no-repeat; */
+
+     background-size: cover; 
+}
+.card1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZhILqbjzStMH99G5euweycG5CddBKWuU19g&s);
+
+
+     background-size: cover; 
+}
+
+.card i{
+    font-size:20px;
+    font-weight: 400;
+    padding: 5px;
+}
+.card h5{
+    margin-top: 67%;
+}
+.card1 i{
+    font-size:20px;
+    font-weight: 400;
+    padding: 5px;
+}
+.card1 h5{
+    margin-top: 67%;
+}
+#bottom p{
+    background-color: rgb(8, 8, 8);
+    }
+    @media(max-width:400px){
+        #main h1{
+        font-size: 4vh;
+        font-weight: 400;
+        }
+        .notf p{
+            font-size: 10px;
+            font-weight: 400;
+        }
+        #bottom{
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 100px;
+            height: 100px;
+
+            margin-top: 8%;
+        }
+        .card i{
+            font-size:15px;
+            font-weight: 400;
+            padding: 5px;
+        }
+        
+        .card h5{
+            margin-top: 48%;
+            font-size: 10px;
+            font-weight: 300;
+
+        }
+        .card p{
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .card1{
+            width: 100px;
+            height: 100px;
+
+            margin-top: 8%;
+        }
+        .card1 i{
+            font-size:15px;
+            font-weight: 400;
+            padding: 5px;
+        }
+        
+        .card1 h5{
+            margin-top: 48%;
+            font-size: 10px;
+            font-weight: 300;
+
+        }
+        .card1 p{
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
